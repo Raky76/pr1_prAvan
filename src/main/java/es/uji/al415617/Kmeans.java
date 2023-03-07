@@ -17,7 +17,8 @@ public class Kmeans {
 
     public void train(Table datos){
 
-       
+       Random r = new Random();
+		return r.nextInt((max - min) + 1) + min;
 
 
     }
